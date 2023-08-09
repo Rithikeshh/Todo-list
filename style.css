@@ -79,9 +79,12 @@ body{
     padding-right: 12%;
 }
 .todo-item{
-    padding-bottom: 12px;
+    padding: 8px 0px;
     display: flex;
     text-align: center;
+    background-color: rgb(204, 204, 243);
+    border-radius: 10px;
+    margin-top: 4px;
     flex-wrap: wrap;
 
 }
