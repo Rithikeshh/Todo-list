@@ -81,7 +81,7 @@ body{
 .todo-item{
     padding-bottom: 12px;
     display: flex;
-    word-break: break-all;
+    text-align: center;
     flex-wrap: wrap;
 
 }
