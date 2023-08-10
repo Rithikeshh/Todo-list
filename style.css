@@ -108,7 +108,7 @@ body{
     width: 30px;
     height: 30px;
     cursor: pointer;
-    margin-left: 67.5%;
+    margin-left: 72%;
     position: absolute;
 }
 .delete-btn:hover{
@@ -130,8 +130,11 @@ body{
     #label-container label{
         font-size: 1.2rem;
     }
+    .delete-btn{
+        margin-left: 69%;
+    }
 }
-@media  only screen and (max-width: 295px){
+@media  only screen and (max-width: 300px){
     #input-container input{
         width: 30%;
         height: 30px;
@@ -143,5 +146,8 @@ body{
     #add-btn{
         height: 30px;
         font-size: 0.6rem;
+    }
+    .delete-btn{
+        margin-left: 67%;
     }
 }
