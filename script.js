@@ -48,7 +48,7 @@ function markComplete(event){
         event.target.parentNode.remove();
         saveData()
     }
-    else if(event.target.tagName = "SPAN"){
+    else if(event.target.tagName === "SPAN"){
         let target = event.target.parentNode.firstElementChild;
         
         if(target.checked){
